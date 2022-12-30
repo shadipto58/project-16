@@ -1,0 +1,188 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap');
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+body{
+	font-family: 'Open Sans', sans-serif;
+}
+ul{
+	list-style: none;
+}
+a{
+	text-decoration: none;
+}
+img{
+	max-width: 100%;
+	height: auto;
+	display: block;
+}
+.header-area{
+	background: transparent;
+	padding: 20px 0;
+	position: absolute;
+	width: 100%;
+}
+.container{
+	width: 85%;
+	margin: auto;
+}
+.nav-bar{
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+.logo{
+	width: 15%;
+}
+.menu{
+	width: 60%;
+}
+.menu ul{
+	display: flex;
+	justify-content: center;
+}
+.menu ul li a{
+	color: #fff;
+	text-transform: uppercase;
+	padding: 0 20px;
+	transition: .3s;
+}
+.menu ul li a:hover{
+	color: #fec007;
+}
+.search{
+	width: 15%;
+}
+.search-box{
+	width: 100%;
+	background: #fff;
+	position: relative;
+	padding: 3px;
+}
+.search-box input{
+	background: transparent;
+	border: none;
+}
+.search-box button{
+	border: none;
+	background: transparent;
+	position: absolute;
+	top: 50%;
+	right: 10px;
+	transform: translateY(-50%);
+}
+.nav-bar-icon{
+	display: none;
+}
+.banner{
+	background: url('images/banner.jpg');
+	background-size: cover;
+	background-position: center;
+	height: 100vh;	
+}
+.banner-overlay{
+	background: rgba(0, 0, 0, .6);
+	height: 100vh;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.title{
+	width: 100%;
+	text-align: center;
+}
+.title h1{
+	color: #fff;
+	font-size: 50px;
+	letter-spacing: 2px;
+}
+.title p{
+	color: #fff;
+	font-size: 14px;
+}
+
+h5{
+	font-weight: bold;
+	font-size: 30px;
+	color: #130f40;
+	padding: 5px;
+	text-align: center;
+	background: #6ab04c;
+}
+.biryani{
+	margin-bottom: 20px;
+}
+.burger{
+	margin-bottom: 20px;
+	background: #fff;
+}
+
+/*foods*/
+.foods{
+	padding: 20px;
+	margin: 20px;
+}
+.row :first-child img{
+	margin-bottom: 20px;
+}
+
+.service{
+	padding: 50px 0;
+	background: #b8e994;
+}
+
+.section-title{
+	text-align: center;
+	margin-bottom: 40px;
+}
+
+.section-title h2{
+	font-size: 35px;
+	color: #000;
+}
+
+.service-content{
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	flex-flow: wrap;
+}
+.service-item{
+	width: 10%;
+}
+
+/* Cotnact */
+
+.contact{
+	padding: 100px 0;
+	background: #fff;
+}
+.cantact-content{
+	display: flex;
+	justify-content: ;
+	flex-wrap: wrap;
+}
+.location{
+	width: 40%;
+}
+.our-form{
+	background: #2C3A47;
+	width: 55%;
+	padding: 25px;
+	margin: 50px auto;
+}
+.our-form label{
+	color: #fff;
+}
+
+footer{
+	text-align: center;
+	background: #34495e;
+	padding: 20px 0;
+}
+footer p{
+	
+	color: #f1c40f;
+}

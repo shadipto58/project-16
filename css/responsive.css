@@ -1,0 +1,17 @@
+@media ( max-width: 991px ) {
+	.menu, .search{
+		display: none;
+	}
+	.nav-bar-icon{
+		display: block;
+		width: 70%;
+		text-align: right;
+	}
+	.nav-bar-icon i{
+		color: #fff;
+		font-size: 20px;
+	}
+	.logo{
+		width: 25%;
+	}
+}
